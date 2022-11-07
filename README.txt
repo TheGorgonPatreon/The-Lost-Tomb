@@ -37,3 +37,5 @@ https://www.patreon.com/forgottenadventures/
 -Compendium Folders
 
 -Tagger
+
+Manifest url: https://github.com/TheGorgonPatreon/The-Lost-Tomb/releases/download/v1/module.json
