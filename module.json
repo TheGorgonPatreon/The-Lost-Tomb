@@ -1,0 +1,91 @@
+{
+  "id": "the-lost-tomb",
+  "name": "the-lost-tomb",
+  "title": "The Lost Tomb",
+  "description": "A tomb hidden by time!",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": "0.8.6",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "author": "The Gorgon and The Basilisk",
+  "authors": [
+    {
+      "name": "The Gorgon and The Basilisk",
+      "discord": "The_Gorgon#5797 and The_Basilisk#2550"
+    }
+  ],
+  "packs": [
+    {
+      "name": "actors",
+      "label": "The Lost Tomb",
+      "path": "/packs/actors.db",
+      "entity": "Actor",
+      "type": "Actor",
+      "system": "dnd5e"
+    },
+    {
+      "name": "journals",
+      "label": "The Lost Tomb",
+      "path": "/packs/journals.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "maps",
+      "label": "The Lost Tomb",
+      "path": "/packs/maps.db",
+      "entity": "Scene",
+      "type": "Scene"
+    }
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "dependencies": [
+    {
+      "id": "scene-packer",
+      "name": "scene-packer",
+      "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
+      "type": "module"
+    },
+    {
+      "id": "tagger",
+      "name": "tagger",
+      "manifest": "https://github.com/fantasycalendar/FoundryVTT-Tagger/releases/latest/download/module.json",
+      "type": "module"
+    },
+    {
+      "id" : "monks-active-tiles",
+      "name" : "monks-active-tiles",
+      "manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json",
+      "type" : "module"
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "scene-packer",
+        "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
+        "type": "module"
+      },
+      {
+        "id": "tagger",
+        "manifest": "https://github.com/fantasycalendar/FoundryVTT-Tagger/releases/latest/download/module.json",
+        "type": "module"
+      },
+      {
+        "id" : "monks-active-tiles",
+        "manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json",
+        "type" : "module"
+      }
+    ]
+  },
+  "url": "https://www.patreon.com/The_Gorgon",
+  "manifest": "https://github.com/TheGorgonPatreon/The-Lost-Tomb/releases/download/v1/module.json",
+  "download": "https://github.com/TheGorgonPatreon/The-Lost-Tomb/archive/refs/tags/v1.zip",
+  "manifestPlusVersion": "1.2.0"
+}
